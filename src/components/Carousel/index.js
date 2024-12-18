@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import imagenes from '../../assets/imagenes'
 import "./carousel.css"
-import MatchaCar from '../Animaciones/matcha copy'
+
 
 export const Carousel = () => {
 
@@ -21,7 +21,7 @@ export const Carousel = () => {
               <img src={imagenes.medialuna} class="d-block w-100 h-100" alt="..." id="carimg"/>
             </div>
             <div class="carousel-item" >
-              <MatchaCar id="cartel-car"/>
+            <img src={imagenes.choco} class="d-block w-100 h-100" alt="..." id="carimg"/>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

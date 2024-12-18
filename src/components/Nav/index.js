@@ -25,16 +25,7 @@ export default function Nav(){
                             <li class="nav-item">
                                 <a to="/contact"  class="nav-link text" href="contact">Contact</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                Dropdown link
-                                </a>
-                                <ul class="dropdown-menu text">
-                                    <li><a to="/"  class="dropdown-item" href="#">Action</a></li>
-                                    <li><a to="/"  class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a to="/"  class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>

@@ -8,11 +8,11 @@ export const Another = () => {
   return(
     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={imagenes.portada3} class="d-block w-100" alt="..."/>
+    <div class="carousel-item active text">
+      <img src={imagenes.portada2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-    <img src={imagenes.portada2} class="d-block w-100" alt="..."/>
+      <img src={imagenes.portada2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <Matcha/>
