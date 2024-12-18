@@ -1,0 +1,32 @@
+.inter{
+    height: 50px;
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.intertext-box{
+    display: flex;
+    column-gap: 10px;
+    text-align: center;
+    width: fit-content;
+    white-space: nowrap;
+    animation: move-rtl 5900ms linear infinite;
+}
+@keyframes move-rtl{
+    0% {
+        transform: translateX(0.5rem);
+    }
+    100%{
+        transform: translateX(0.5rem);
+    }
+}
+
+#txt1{
+    margin-top: 10px;
+}
+
+.icon-in{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}

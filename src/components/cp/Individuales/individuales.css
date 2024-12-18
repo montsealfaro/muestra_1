@@ -1,0 +1,25 @@
+.individuales{
+    background-color:whitesmoke;
+    width:fit-content;
+    display: flex;
+}
+
+.name{
+    padding: 5%;
+    color: maroon;
+}
+
+.cajaDescripción{
+    position: absolute;
+}
+
+.btn{
+    background-color: darkred ;
+    color: wheat;
+    padding: 5px;
+}
+
+.targ{
+    position: relative;
+    width: 300px
+}

@@ -1,0 +1,18 @@
+.form-check{
+    width: fit-content;
+    padding: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: wheat;
+}
+
+.form-check-label{
+    color: maroon;
+    position: relative;
+    left:10%;
+}
+
+.form-check-input{
+    position: relative;
+    left: 10%;
+}

@@ -1,0 +1,42 @@
+.footbox{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    gap: 40%;
+}
+
+.wrapped .search-input{
+    margin-bottom: 10%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+}
+
+.search-input input{
+    width: 100%;
+    height: 30px;
+    border-radius: 1rem;
+    display: flex;
+    outline: none;
+    border: none;
+    padding: 0 60px 0 20px;
+}
+.button-subs{
+    border-radius: 1rem;
+    border: none;
+    background-color: brown;
+    color: wheat;
+}
+
+#side-foot{
+    text-align: end;
+}
+
+.icon-apps{
+    display: flex;
+    gap: 7%;
+    justify-content: end;
+    font-size: 25px;
+}

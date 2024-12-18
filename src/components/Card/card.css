@@ -1,0 +1,19 @@
+.card{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.butt{
+    border: none;
+    width: fit-content;
+    background-color: brown;
+    color: blanchedalmond;
+    align-self: center;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.imgcard{
+    border-radius: 6rem;
+}

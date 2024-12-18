@@ -1,0 +1,41 @@
+.prod{
+    width: 50%;
+    background: radial-gradient(circle, rgba(255,254,254,0.3519782913165266) 0%, rgba(255,254,254,1) 100%);
+    display: grid;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.cajaDialogo{
+    width: fit-content;
+    padding: 10px;
+}
+
+.cajaAlergenos{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    column-gap: 10px;
+}
+
+.tarjetaIcono{
+    margin-bottom: 20%;
+    display: grid;
+    height: fit-content;
+    justify-items: center;
+}
+
+
+.circulo{
+    height: 110px;
+    width: 110px;
+    border: 5px solid black;
+}
+
+.icono{
+    object-fit: contain;
+    position: relative;
+    top: 5%
+}

@@ -1,0 +1,69 @@
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    position: sticky;
+    top: 1%;
+    
+}
+
+.barra{
+    width: 1000px;
+    height: 50px;
+    border-radius: 2rem;
+    background-color: rgb(162, 234, 202);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    
+}
+
+.navv{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-family: "Silkscreen", sans-serif;
+    font-size: small;
+}
+
+#title{
+    font-size: large;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: rgb(243, 47, 47);
+}
+
+.nav-link {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: rgb(243, 47, 47);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar {
+    --bs-navbar-brand-color:white;
+    --bs-navbar-brand-hover-color: rgb(243, 47, 47);
+   }

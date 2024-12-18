@@ -1,0 +1,7 @@
+h1, h2, h3, h4, h5, h6, p, li, ul, label, input, button, .btn{
+    font-family: "Silkscreen", sans-serif;
+}
+
+body{
+    background-color: rgba(255, 252, 241, 0.428);
+}

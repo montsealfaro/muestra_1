@@ -1,0 +1,98 @@
+
+.cartellitt{
+    width: 180px;
+    row-gap: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 5rem;
+  }
+  
+  .letter-car{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 5rem;
+    color: rgb(126, 196, 19);
+    width: fit-content;
+    justify-self: center;
+    margin: -10px;
+  }
+  
+  #mov{
+    font-size: 5rem;
+    padding-top: 40%;
+    padding-left: 25%;
+  
+  }
+  
+  #mov2{
+    font-size: 5rem;
+    margin-top: -30px;
+    padding-right: -10%;
+    
+  }
+
+   
+  /*/
+  
+  /* Utility classes */
+  .animate {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+    
+    .animate.animate--infinite {
+      animation-iteration-count: infinite;
+    }
+    
+    .animate.animate--delay-1s {
+      animation-delay: 1s;
+    }
+    
+    .animate.animate--fast {
+      animation-duration: 0.6s;
+    }
+    
+    .animate.animate--slow {
+      animation-duration: 3s;
+    }
+    
+    /* Animations */
+  
+    
+    @keyframes rotate {
+      from {
+        transform: rotate(-30deg);
+      }
+    
+      to {
+        transform: rotate(30deg);
+      }
+     
+    }
+    
+    .rotate {
+      animation-name: rotate;
+      animation-duration: 30s;
+      animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      animation-direction:alternate-reverse;
+    }
+    
+    @keyframes rotate2 {
+      from {
+        transform: rotate(30deg);
+      }
+    
+      to {
+        transform: rotate(-30deg);
+      }
+     
+    }
+    
+    .rotate2 {
+      animation-name: rotate2;
+      animation-duration: 30s;
+      animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      animation-direction:alternate-reverse;
+    }
+  
+    
